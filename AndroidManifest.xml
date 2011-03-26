@@ -50,13 +50,13 @@
             </intent-filter>
         </service>
         
-         <!-- Declare widget --> 
+		<!-- Declare widget -->
 		<receiver android:name="com.mayppong.tttumblr.Widget" android:label="@string/app_name">
-	   		<intent-filter>
-	        	<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />        	
-	    	</intent-filter>
-	    	<meta-data android:name="android.appwidget.provider"
-	        	android:resource="@xml/widgetproviderinfo" />
+			<intent-filter>
+				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+			</intent-filter>
+			<meta-data android:name="android.appwidget.provider"
+				android:resource="@xml/widgetproviderinfo" />
 		</receiver>
 		<!--  End of widget -->
         

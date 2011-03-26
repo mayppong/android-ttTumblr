@@ -15,11 +15,18 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int ic_menu_help=0x7f020000;
-        public static final int ic_menu_info_details=0x7f020001;
-        public static final int ic_menu_preferences=0x7f020002;
-        public static final int tumblr24x24=0x7f020003;
-        public static final int tumblr48x48=0x7f020004;
+        public static final int dashboardbtn=0x7f020000;
+        public static final int ic_menu_help=0x7f020001;
+        public static final int ic_menu_info_details=0x7f020002;
+        public static final int ic_menu_preferences=0x7f020003;
+        public static final int icon=0x7f020004;
+        public static final int iconcredit=0x7f020005;
+        public static final int imgbtn=0x7f020006;
+        public static final int textbtn=0x7f020007;
+        public static final int tumblr24x24=0x7f020008;
+        public static final int tumblr48x48=0x7f020009;
+        public static final int videobtn=0x7f02000a;
+        public static final int widgetbackground=0x7f02000b;
     }
     public static final class id {
         public static final int btnInputCancel=0x7f080008;
@@ -61,9 +68,9 @@ public final class R {
         public static final int labelUrl=0x7f08001b;
         public static final int labelUrlInfo=0x7f080018;
         public static final int labelUsername=0x7f080001;
-        public static final int menu_about=0x7f080036;
-        public static final int menu_account=0x7f080037;
-        public static final int menu_settings=0x7f080038;
+        public static final int menu_about=0x7f08003b;
+        public static final int menu_account=0x7f08003c;
+        public static final int menu_settings=0x7f08003d;
         public static final int postConversationBtn=0x7f080011;
         public static final int postConversationBtnOk=0x7f080017;
         public static final int postImageBtn=0x7f08000c;
@@ -79,6 +86,11 @@ public final class R {
         public static final int tbImageCaption=0x7f080030;
         public static final int tbVideoCaption=0x7f080034;
         public static final int tbYoutubeUrl=0x7f080033;
+        public static final int widget_DashboardBtn=0x7f080037;
+        public static final int widget_ImgBtn=0x7f080039;
+        public static final int widget_TextBtn=0x7f080038;
+        public static final int widget_TumblrLogo=0x7f080036;
+        public static final int widget_VideoBtn=0x7f08003a;
     }
     public static final class layout {
         public static final int accountview=0x7f030000;
@@ -91,6 +103,7 @@ public final class R {
         public static final int settingsview=0x7f030007;
         public static final int uploadimageview=0x7f030008;
         public static final int uploadvideoview=0x7f030009;
+        public static final int widgetview=0x7f03000a;
     }
     public static final class menu {
         public static final int main_menu=0x7f070000;
@@ -100,5 +113,6 @@ public final class R {
     }
     public static final class xml {
         public static final int preferences=0x7f040000;
+        public static final int widgetproviderinfo=0x7f040001;
     }
 }
